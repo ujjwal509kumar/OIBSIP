@@ -21,7 +21,6 @@ function convertTemp() {
     } else {
       // invalid unit
       var errormsg = "Please enter a valid unit in numbers";
-      errormsg += " world!";
       output.value = errormsg;
     }
   }
