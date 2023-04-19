@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="oasistest.css">
+    <title>Temperature converter</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+          <h1>Temperature converter</h1>
+          <label for="degree">Degrees</label>
+          <input type="text" id="degree" name="degree" required>
+  
+          <label for="tempUnit">Type:</label>
+          <select id="tempUnit" name="tempUnit">
+            <option value="F">Fahrenheit</option>
+            <option value="C">Celsius</option>
+          </select>
+    
+          <label for="result">Result</label>
+          <input type="text" id="result" name="result" required>
+  
+          <button type="button" onclick="convertTemp()">Convert</button>
+        </form>
+      </div>
+      <script src="oasistest.js"></script>
+</body>
+</html>
